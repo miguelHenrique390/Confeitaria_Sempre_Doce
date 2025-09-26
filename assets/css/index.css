@@ -7,6 +7,7 @@
 
 body {
     line-height: 1.6;
+    margin-bottom: 100px;
 }
 
 .container {
@@ -19,6 +20,31 @@ header {
     background-color:rgb(206, 186, 36);
     color: aliceblue;
     padding: 20px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.link-admin{
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    color: white;
+    padding-right: 20px;
+}
+
+.link-admin:hover {
+    font-weight: bold;
+    text-decoration: underline;
+    color: aqua;
+}
+
+.logo{
+ width: 0;
+}
+
+.logo-img{
+    width: 200px;
+    margin-left: 30px;
 }
 
 header h1{
@@ -55,6 +81,50 @@ nav ul li a:hover {
     height: 300px;
 }
 
+.sobre container h2 {
+    text-align: center;
+    font-size: 40px;
+      font-family: "EB Garamond", serif;
+}
+
+.container p {
+    text-align: center;
+    font-size: 20px;
+      font-family: "EB Garamond", serif;
+}
 
 
+.sobre h2 {
+font-family: "EB Garamond", serif;
+text-align: center;
+}
+
+.menu-cardapio-itens {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+}
+
+.menu-cardapio-item {
+    border: 2px solid green;
+    border-radius: 5px;
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.menu-cardapio h2 {
+font-family: "EB Garamond", serif;
+text-align: center;
+font-size: 50px;
+}
+
+footer {
+    background-color:rgb(206, 186, 36);
+    text-align: center;
+    color: aliceblue;
+    padding: 10px;
+
+}
 

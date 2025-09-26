@@ -1,22 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Confeitaria Sempre Doce</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Della+Respira&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="../assets/img/logotipo.png">
+    <link rel="stylesheet" href="assets/css/index.css">
 </head>
+
 <body>
     <header>
-    <div class="container">
-        <h1>
-            confeitaria sempre doce
-            <!-- Menu de navegação -->
-             </h1>
-             <nav>
+            <!-- link para adm do site -->
+             <a href="pages/admin.html" class="link-admin">Admin</a>
+
+        <!-- Logotipo da Confeitaria -->
+        <div class="logo">
+            <img class="logo-img" src="assets/img/logotipo.png" alt="">
+        </div>
+        <div class="container">
+            <h1>
+                confeitaria sempre doce
+                <!-- Menu de navegação -->
+            </h1>
+            <nav>
                 <ul>
                     <li>
                         <a href="index.html">inicio</a>
@@ -31,17 +45,76 @@
                         <a href="contato.html">contato</a>
                     </li>
                 </ul>
-             </nav>
+            </nav>
 
-    </div>
+        </div>
     </header>
 
-<!-- Carrosel de imagem -->
-<section class="Carrosel">
-    <div>
-        <img class="img-carr" id="img-carrosel" src="" alt="">
+    <!-- Carrosel de imagem -->
+    <section class="Carrosel">
+        <div>
+            <img class="img-carr" id="img-carrosel" src="" alt="">
+        </div>
+    </section>
+
+    <!--sobre a confeitaria-->
+
+    <section class="sobre">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>
+                somos uma confeitaria dedicada a criar
+                bolos deliciosos e parsonalizados
+                para todas as ocasioes.<br /> Nossa paixao pela confeitaria
+                é refletida em cada criação que sai de nossa cozinha.
+            </p>
+
+        </div>
+
+    </section>
+
+    <!-- Nosso cardapio -->
+    <section class="menu-cardapio">
+        <h2>Nosso Cardapio</h2>
+        <br>
+        <div class="menu-cardapio-itens">
+            <div class="menu-cardapio-item">
+                <h3>bolo de chocolate</h3>
+                <p>um classico irresistivel com
+                    camadas de chocolate</p>
+            </div>
+
+
+
+            <!-- segundo item -->
+
+            <div class="menu-cardapio-item">
+                <h3>bolo de chocolate</h3>
+                <p>um classico irresistivel com
+                    camadas de chocolate</p>
+            </div>
+
+
+            <!-- terceiro item -->
+            <div class="menu-cardapio-item">
+                <h3>bolo de chocolate</h3>
+                <p>um classico irresistivel com
+                    camadas de chocolate</p>
+            </div>
+
+        </div>
+    </section>
+
+<!-- footer -->
+ <footer>
+    <div class="container">
+        <p>&copy; 2025 Confeitaria Sempre Doce.
+            Todos os direitos reservados
+        </p>
     </div>
-</section>
+ </footer>
+
 </body>
 <script src="assets/js/index.js"></script>
+
 </html>
