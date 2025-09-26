@@ -49,4 +49,12 @@ nav ul li a:hover {
     color: yellow;
 }
 
+.img-carr {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+
+
+
 
