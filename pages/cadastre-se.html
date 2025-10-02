@@ -10,7 +10,7 @@
      <div>
         <h1>Acessar o sitema</h1>
 
-        <input type="text" id="nome " placeholder="Nome">
+        <input type="text" id="nome" placeholder="Nome">
         <br><br>
 
 
@@ -24,14 +24,18 @@
         <br><br>
 
  
-        <input type="password" id="senha" placeholder="confirmar senha">
-        <button>Acessar</button>
+        <input type="password" id="confirma-senha" placeholder="confirmar senha">
+
         
         <br><br>
 
-        <button>Cadastrar-se</button>
+        <input type="checkbox" onclick="toggleSenha()" id="exibir-senha">
+
+        <button onclick="cadastrarUsuario()">Cadastrar-se</button>
         <br><br>
-        <a href="cadastre-se.html">Cadastrar-se</a>
+
+        <a href="admin.html">voltar para login</a>
     </div>
 </body>
+    <script src="../assets/js/cadastre-se.js"></script>
 </html>
