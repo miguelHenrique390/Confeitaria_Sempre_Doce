@@ -13,19 +13,21 @@ const opcoes = {
     const evento = info.event;
 
     // Acessa os dados personalizados
-    const nome = evento.title || 'Não informado';
-    const telefone = evento.extendedProps.telefone || 'Não informado';
-    const descricao = evento.extendedProps.descricao || 'Não informado';
-    const quantidade = evento.extendedProps.quantidade || 'Não informado';
-    const adicionais = evento.extendedProps.adicionais || 'Não informado';
+    const nome = evento.title;
+    const telefone = evento.extendedProps.telefone;
+    const produto = evento.extendedProps.produto;
+    const quantidade = evento.extendedProps.quantidade;
+    const adicionais = evento.extendedProps.adicionais;
+    const data = evento.extendedProps.start
 
     // Exibe os dados em um alerta (pode trocar por modal se quiser)
     alert(
       ` Reserva: ${nome}\n` +
       ` Telefone: ${telefone}\n` +
-      ` Descrição: ${descricao}\n` +
+      ` Produto: ${produto}\n` +
       ` Quantidade: ${quantidade}\n` +
-      ` Informações adicionais: ${adicionais}`
+      ` Informações adicionais: ${adicionais}`+
+      `Data da reserva: ${data}`
     );
 
     info.jsEvent.preventDefault(); // Impede redirecionamento, se houver
@@ -47,9 +49,10 @@ for (let i = 0; i < reservaLS.length; i++) {
     start: reserva['data'],
     extendedProps: {
       telefone: reserva['telefone'],
-      descricao: reserva['descricao'],
+      produto: reserva['produto'],
       quantidade: reserva['quantidade'],
       adicionais: reserva['adicionais']
+      
     }
   });
 }
