@@ -1,0 +1,30 @@
+
+
+table {
+    width: 100%;
+    font-size: 25px;
+    padding: 50px;
+}
+
+th, td {
+    border: 1px black solid;
+    padding: 10px;
+    text-align: center;
+}
+
+/* cor de fundo para linhas impares*/
+
+tr:nth-child(odd){
+    background-color:#97b2eb;
+}
+
+tr:nth-child(even){
+    background-color:rgb(235, 238, 243);
+}
+
+
+tr:hover {
+    background-color: rgb(110, 137, 244);
+}
+
+

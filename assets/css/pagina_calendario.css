@@ -1,0 +1,26 @@
+body{
+     font-family: "Oswald", sans-serif;
+     width: 100%;
+     text-align: center;
+}
+
+.container {
+    position: absolute;
+    left: 15%;
+    width: 70%;
+}
+
+.div-voltar{
+    text-align: end;
+}
+
+.link-voltar{
+    text-decoration: none;
+    font-size: 30px;
+    color: darkcyan;
+}
+
+.link-voltar:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
