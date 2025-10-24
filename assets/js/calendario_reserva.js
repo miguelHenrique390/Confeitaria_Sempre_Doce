@@ -21,11 +21,11 @@ const opcoes = {
 
     // Exibe os dados em um alerta (pode trocar por modal se quiser)
     alert(
-      `🗓️ Reserva: ${nome}\n` +
-      `📞 Telefone: ${telefone}\n` +
-      `📝 Descrição: ${descricao}\n` +
-      `🔢 Quantidade: ${quantidade}\n` +
-      `📌 Informações adicionais: ${adicionais}`
+      ` Reserva: ${nome}\n` +
+      ` Telefone: ${telefone}\n` +
+      ` Descrição: ${descricao}\n` +
+      ` Quantidade: ${quantidade}\n` +
+      ` Informações adicionais: ${adicionais}`
     );
 
     info.jsEvent.preventDefault(); // Impede redirecionamento, se houver
